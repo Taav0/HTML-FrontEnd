@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Minu Kontakt</title>
+</head>
+<body>
+<header>
+    <h1>Minu Kontakt</h1>
+    <nav>
+        <a href="index.html">Minu Profiil</a>
+            <br/>
+        <a href="MySkills.html">Minu Oskused</a>
+            <br/>
+        <a href="MyProjects.html">Minu Projektid</a>
+            <br/>
+        <a href="testFormSubmission.html">Minu eriline leht</a>
+            <br/>
+    </nav>
+</header>
+<section>
+    <br/>
+    <form>
+        <h3>Palun täitke vorm, et minuga ühendust võtta</h3>
+        <div id="nameInputContainer">
+            <span>Sisesta nimi: </span>
+            <input id="nameInput" name="name"/>
+        </div>
+            <br/>
+        <div id="phoneInputContainer">
+            <span>Sisesta telefoni number: </span>
+            <input id="phoneInput" name="phone"/>
+        </div>
+            <br/>
+        <div id="emailInputContainer">
+            <span>Sisesta emaili aadress: </span>
+            <input id="emailInput" name="email"/>
+        </div>
+            <br/>
+        <div id="replayOptionContainer">
+            <span>Kuidas sa tahaksid, et ma vastakasin: </span>
+            <select>
+                <option>Email</option>
+                <option>Phone</option>
+                <option>Post</option>
+            </select>
+        </div>
+            <br>
+        <div id="inquiryTypeOptionContainer">
+            <span>Mis tüüpi päring: </span>
+            <div>
+                <input type="radio" id="kaebus" name="inquiryType" value="kaebus">
+                <label for="kaebus">Kaebus</label>
+            </div>
+
+            <div>
+                <input type="radio" id="projekt" name="inquiryType" value="projekt">
+                <label for="projekt">Projekt</label>
+            </div>
+
+            <div>
+                <input type="radio" id="kool" name="inquiryType" value="kool">
+                <label for="kool">Kool</label>
+            </div>
+            <select>
+                <option>Email</option>
+                <option>Phone</option>
+                <option>Post</option>
+            </select>
+            <input id="replayOption"/>
+        </div>
+            <br/>
+        <div id="inquiryTextareaContainer">
+            <span>Esita päring: </span>
+            <textarea id="inquiryTextarea"></textarea>
+        </div>
+            <br/>
+            <br/>
+        <button type="submit">Esita vorm</button>
+
+
+        <!-- Container Tags-->
+        <section>
+            <div>
+                <p>
+                    <span>
+
+                    </span>
+                </p>
+            </div>
+        </section>
+
+    </form>
+</section>
+</body>
+</html>
